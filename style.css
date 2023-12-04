@@ -1,0 +1,310 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'uni_neueregular';
+}
+/*...navbar margin.....*/
+.collapse{
+    display: block;
+}
+.navbar-nav li a{
+    margin-right: 1rem;
+}
+@media (max-width: 820px) {
+    .navbar-nav li{
+        margin: 0.5;  
+    }
+}
+@media (max-width: 1200px) {
+    .navbar-nav li a{
+        margin: 0.1rem;
+       
+    }
+}
+@media (max-width: 540px) {
+    .navbar-nav li{
+        margin: 0.3rem;
+        }   
+}
+/*..header...*/
+.main{
+    background: #ffffff;
+   }
+  /*..about section image*/
+.aboutSection{
+    background-image:url( https://www.tatamotors.com/wp-content/uploads/2019/12/abouts_banner-tab-2.jpg);
+    width: 100%;
+    min-height: 65vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+@media (max-width: 1500px) {
+    .aboutSection{
+        background-image: url(https://www.tatamotors.com/wp-content/uploads/2019/12/abouts_banner-web.jpg);
+        
+        min-height: 65vh;
+    }
+}
+@media (max-width: 2166px) {
+    .aboutSection{
+        background-image: url(https://www.tatamotors.com/wp-content/uploads/2019/12/abouts_banner-tab-2.jpg);
+        
+        min-height: 70vh;
+    }
+}
+@media (max-width: 540px) {
+    .aboutSection{
+        background-image: url(https://www.tatamotors.com/wp-content/uploads/2019/12/abouts_banner_mob-2.jpg);
+            min-height: 75vh;
+        }     
+    }
+    /*...heading informationsss*/
+    .heading_info {
+        position: absolute;
+        margin: 0 auto;
+        max-width: 960px;
+        width: 80%;
+        left: 0;
+        right: 0;
+        margin-top: 32rem;
+        color: white;
+        text-align: center;
+        font-family: 'uni_neueregular';
+        font-weight: bold;
+    }
+    .readMore .readButton{
+        background: none;
+        border: 2px solid white;
+        color: white;
+    }
+.productSection{
+    background-image:url(https://www.tatamotors.com/wp-content/uploads/2019/12/product-landing-web.jpg);
+    width: 100%;
+    min-height: 65vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+@media (max-width: 820px) {
+    .productSection{
+        background-image: url(https://www.tatamotors.com/wp-content/uploads/2019/12/product-landing-tab.jpg);
+        
+        min-height: 60vh;
+    }
+}
+@media (max-width: 1170px) {
+    .productSection{
+        background-image: url(https://www.tatamotors.com/wp-content/uploads/2019/12/product-landing-web.jpg);
+        
+        min-height: 60vh;
+    }
+}
+@media (max-width: 540px) {
+.productSection{
+        background-image: url(https://www.tatamotors.com/wp-content/uploads/2019/12/product-landing-mob.jpg);
+            min-height: 60vh;
+        }     
+}
+  /*...market section.......*/
+.marketSction{
+    background-image:url(https://www.tatamotors.com/wp-content/uploads/2018/02/markets_banner_dsk.jpg);
+    width: 100%;
+    min-height: 65vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+@media (max-width: 820px) {
+    .marketSction{
+        background-image: url(https://www.tatamotors.com/wp-content/uploads/2018/02/market_banner_tab.jpg);    
+        min-height: 60vh;
+    }
+}
+@media (max-width: 1170px) {
+    .marketSction{
+        background-image: url(https://www.tatamotors.com/wp-content/uploads/2018/02/markets_banner_dsk.jpg);   
+        min-height: 60vh;
+    }
+}
+@media (max-width: 540px) {
+    .marketSction{
+        background-image: url(https://www.tatamotors.com/wp-content/uploads/2018/02/market_banner_mob.jpg);
+        min-height: 60vh;
+
+     }   
+}
+/*...csr section......*/
+.csrSection{
+    background-image:url(https://www.tatamotors.com/wp-content/uploads/2020/10/csr-overview-banner.jpg);
+    width: 100%;
+    min-height: 65vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+@media (max-width: 820px) {
+    .csrSection{
+        background-image: url(https://www.tatamotors.com/wp-content/uploads/2020/10/csr-overview-banner-tab.jpg); 
+        min-height: 60vh;
+    }
+}
+@media (max-width: 1170px) {
+    .csrSection{
+        background-image: url(https://www.tatamotors.com/wp-content/uploads/2020/10/csr-overview-banner.jpg);
+        min-height: 60vh;
+    }
+}
+@media (max-width: 540px) {
+    .csrSection{
+        background-image: url(https://www.tatamotors.com/wp-content/uploads/2020/10/csr-overview-banner-mobi.jpg);
+        min-height: 60vh;
+    } 
+}
+/*...invester...*/
+.investorSection{
+    background-image:url(https://www.tatamotors.com/wp-content/uploads/2018/01/investor_banner_dsk.jpg);
+    width: 100%;
+    min-height: 55vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+@media (max-width: 820px) {
+    .investorSection{
+        background-image: url(https://www.tatamotors.com/wp-content/uploads/2018/02/investor_banner_tab.jpg);
+        min-height: 50vh;
+    }
+}
+@media (max-width: 1170px) {
+    .investorSection{
+        background-image: url(https://www.tatamotors.com/wp-content/uploads/2018/01/investor_banner_dsk.jpg);
+        
+        min-height: 55vh;
+    }
+}
+@media (max-width: 540px) {
+    .investorSection{
+        background-image: url(https://www.tatamotors.com/wp-content/uploads/2018/02/investor_banner-mob.jpg);
+        min-height: 55vh;
+        }
+        
+}
+/*...media section....*/
+.meadiaSection{
+    background-image:url(https://www.tatamotors.com/wp-content/uploads/2018/02/media_bannerdsk.jpg);
+    width: 100%;
+    min-height: 55vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+@media (max-width: 820px) {
+    .meadiaSection{
+        background-image: url(https://www.tatamotors.com/wp-content/uploads/2018/02/media_bannertab.jpg); 
+        min-height: 50vh;
+    }
+}
+@media (max-width: 1170px) {
+    .meadiaSection{
+        background-image: url(https://www.tatamotors.com/wp-content/uploads/2018/02/media_bannerdsk.jpg);
+        min-height: 50vh;
+    }
+}
+@media (max-width: 540px) {
+    .meadiaSection{
+        background-image: url(https://www.tatamotors.com/wp-content/uploads/2018/02/media_bannermob.jpg);
+        min-height: 50vh;
+        }
+ }
+ /*...Blogs section....*/
+ .blogSection{
+    background-image:url(https://www.tatamotors.com/wp-content/uploads/2018/02/markets_banner_dsk.jpg);
+    width: 100%;
+    min-height: 65vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+@media (max-width: 820px) {
+    .blogSection{
+        background-image: url(https://www.tatamotors.com/wp-content/uploads/2018/02/market_banner_tab.jpg);
+        min-height: 60vh;
+    }
+}
+@media (max-width: 1170px) {
+    .blogSection{
+        background-image: url(https://www.tatamotors.com/wp-content/uploads/2018/02/markets_banner_dsk.jpg);
+        min-height: 60vh;
+    }
+}
+@media (max-width: 540px) {
+    .blogSection{
+        background-image: url(https://www.tatamotors.com/wp-content/uploads/2018/02/market_banner_mob.jpg);
+        min-height: 60vh;
+        }
+}
+/*...career section....*/
+.careerSection{
+    background-image:url(img/career.jpg);
+    width: 100%;
+    min-height: 65vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+/*
+@media (max-width: 820px) {
+    .careerSection{
+            background-image: url(https://www.tatamotors.com/wp-content/uploads/2018/02/market_banner_tab.jpg);   
+            min-height: 60vh;
+    }
+}
+@media (max-width: 1170px) {
+    .careerSection{
+        background-image: url(https://www.tatamotors.com/wp-content/uploads/2018/02/markets_banner_dsk.jpg);    
+        min-height: 60vh;
+    }
+}
+@media (max-width: 540px) {
+    .careerSection{
+        background-image: url(https://www.tatamotors.com/wp-content/uploads/2018/02/market_banner_mob.jpg);
+        min-height: 60vh;
+    }         
+}
+ /*contact section*/
+.contactSection{
+    background-image:url(https://www.tatamotors.com/wp-content/uploads/2018/02/contact_banner_dsk.jpg);
+    width: 100%;
+    min-height: 65vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+@media (max-width: 820px) {
+    .contactSection{
+        background-image: url(https://www.tatamotors.com/wp-content/uploads/2018/02/contact_banner_tab.jpg);        
+        min-height: 60vh;
+    }
+}
+@media (max-width: 1170px) {
+    .contactSection{
+        background-image: url(https://www.tatamotors.com/wp-content/uploads/2018/02/contact_banner_dsk.jpg);       
+        min-height: 60vh;
+    }
+}
+ @media (max-width: 540px) {
+    .contactSection{
+        background-image: url(https://www.tatamotors.com/wp-content/uploads/2018/02/contact_banner_mob.jpg);
+         min-height: 60vh;
+        
+    }
+                
+}
+/*...bacground image section one*/
+.bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+  }
+  @media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+      font-size: 3.5rem;
+    }
+  }
+
+    
